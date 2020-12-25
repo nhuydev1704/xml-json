@@ -5,6 +5,9 @@
         "mail":"khanhandli@gmail.com"},
         {"id": 2,"name":"Nguyễn Văn A",
             "dia chi":"Hà Nội","age":22,
-            "mail":"khanhandli1@gmail.com"}
+            "mail":"khanhandli1@gmail.com"},
+            {"id": 3,"name":"Nguyễn Văn B",
+                "dia chi":"Hà Nội","age":32,
+                "mail":"khanhandli1@gmail.com"}
     ]
 }
