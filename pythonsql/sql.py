@@ -5,7 +5,7 @@ import json
 con = pymysql.connect(host='localhost', 
                       user='root', 
                       password='', 
-                      db='testphp', 
+                      db='nhuy', 
                       charset='utf8mb4', 
                       cursorclass=pymysql.cursors.DictCursor)  
 with con.cursor() as cur:
@@ -17,8 +17,8 @@ with con.cursor() as cur:
     file = open('data_file.json','r')
     data = json.load(file)
     for p in data:
-        print("Tên dang nh?p: "+p['user'])
-        print("M?t kh?u :"+p['password'])
+        print("Tên: "+p['name'])
+        print("Tuổi :"+p['age'])
         print("")
     
     

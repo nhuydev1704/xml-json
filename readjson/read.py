@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 import json
-file = open('data.json','r')
+file = open('data.json','r', encoding="utf8")
 data = json.load(file)
 
 for p in data['people']:
