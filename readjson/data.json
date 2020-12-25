@@ -1,0 +1,10 @@
+{
+    "people":[
+        {"id": 1,"name":"Nguyễn Như Ý",
+        "dia chi":"Hà Nội","age":20,
+        "mail":"khanhandli@gmail.com"},
+        {"id": 2,"name":"Nguyễn Văn A",
+            "dia chi":"Hà Nội","age":22,
+            "mail":"khanhandli1@gmail.com"}
+    ]
+}

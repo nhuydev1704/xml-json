@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{margin:40px 150px; font:normal 16pt Arial;}
+h3{color:white; text-shadow:2px 2px 2px red,-1px -1px 1px black;}
+h1{color:yellow; text-shadow:2px 2px 2px red,-1px -1px 1px black;}
+</style>
+<title>Thuộc tính childNodes và phương thức getElementsByTagName()</title>
+<script>
+var xmlDoc=null;
+var hoten,lop;
+
+function clear(){
+	document.getElementById("kq").innerHTML="";
+}
+
+function find(code){
+	// Tìm node sinhvien biết mã số sinh viên
+	node=null;
+	list=xmlDoc.getElementsByTagName("sinhvien");
+	for(i=0;i<list.length;i++){
+		if(list[i].getAttribute("maso")==code){
+			node=list[i];
+			hoten=node.getAttribute("hoten");
+			lop=node.getAttribute("lop");
+			break;
+		}
+	}
+	return node;
+}
+
+function bangdiem(){
+	// In ra bảng điểm của sinh viên, nhập mã số
+	element=find(prompt("Nhập mã sinh viên"));
+	if(element!==null){		
+		list=element.childNodes;
+		j=1;
+		str="<h3>Bảng điểm của sinh viên</h3>";
+		str +=hoten+", "+lop+"<br><br>";
+		for(i=0;i<list.length;i++){
+			if(list[i].nodeType==1){
+				monhoc=list[i].getAttribute("tenmh");
+				diem=list[i].textContent;
+				str +=j+" - "+monhoc+" - "+diem+"<br>";
+				j++;
+			}
+		}		
+	document.getElementById("kq").innerHTML=str;
+	}
+	else {
+		clear(); alert("Không có sinh viên này");
+	}
+} 
+
+function load(){
+	var xml=new XMLHttpRequest();
+	xml.open("GET","dulieu.xml", false);
+	xml.send(null);
+	xmlDoc=xml.responseXML;
+}
+
+function display(){	
+	// Hiển thị danh sách sinh viên
+	j=1;
+	// childNodes trả về node con kiểu: element, attribute, textnode
+	list=xmlDoc.documentElement.childNodes;
+
+	list=xmlDoc.getElementsByTagName("sinhvien");
+	str="<h3>Danh sách sinh viên</h3>";
+	for(i=0;i<list.length;i++){
+		if(list[i].nodeType==1 && list[i].nodeName=="sinhvien"){
+			hoten=list[i].getAttribute("hoten");
+			str += j+" - "+hoten+"<br>";
+			j++;
+		}
+	}
+	document.getElementById("kq").innerHTML=str;
+}
+
+load();
+</script>
+</head>
+<body>
+<h1>XML và JavaScript</h1>
+<a href="dulieu.xml">Xem sinhvien.xml</a><br>
+<a href="javascript:display();">Danh sách sinh viên</a><br>
+<a href="javascript:bangdiem();">Bảng điểm một sinh viên</a><br>
+<a href="index2.html">Dom Parser</a><br>
+<a href="javascript:clear();">Clear</a><br>
+<p>&nbsp</p>
+<div id=kq></div>
+</body>
+</html>

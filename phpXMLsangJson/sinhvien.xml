@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<dct namhoc="2020-2021">
+<info>Danh Sach Sinh Vien DH8C4</info>
+<sinhvien maso="Sv01" hoten="Vuong Dinh Hoang Long" lop="XML01" diachi="Pho Hue">
+<monhoc mamh="Mh01" tenmh="Java 1" tinchi="3">8</monhoc>
+<monhoc mamh="Mh02" tenmh="Lập trình trực quan" tinchi="3">7</monhoc>
+<monhoc mamh="Mh03" tenmh="Cơ sở dữ liệu" tinchi="3">9</monhoc>
+<monhoc mamh="Mh04" tenmh="Mạng máy tính" tinchi="3">7</monhoc>
+<monhoc mamh="Mh05" tenmh="Tư tưởng Hồ Chí Minh" tinchi="2">6</monhoc>
+</sinhvien>
+<sinhvien maso="S02" hoten="Nguyễn Thị Yen" lop="XML01"  diachi="Quảng Bình">
+<monhoc mamh="M02" tenmh="Lập trình trực quan" tinchi="3">6</monhoc>
+<monhoc mamh="M03" tenmh="Cơ sở dữ liệu" tinchi="3">7</monhoc>
+<monhoc mamh="M04" tenmh="Mạng máy tính" tinchi="3">8</monhoc>
+<monhoc mamh="M05" tenmh="Tư tưởng Hồ Chí Minh" tinchi="2">9</monhoc>
+</sinhvien>
+<sinhvien maso="Sv03" hoten="Vu Van Tien" lop="XML01" diachi="Quảng Trị">
+<monhoc mamh="Mh01" tenmh="Java 1" tinchi="3">7</monhoc>
+<monhoc mamh="Mh03" tenmh="Cơ sở dữ liệu" tinchi="3">8</monhoc>
+<monhoc mamh="Mh04" tenmh="Mạng máy tính" tinchi="3">9</monhoc>
+<monhoc mamh="Mh05" tenmh="Tư tưởng Hồ Chí Minh" tinchi="2">7</monhoc>
+</sinhvien>
+<sinhvien maso="Sv04" hoten="Nguyễn Nhu Y" lop="XML02" diachi="Quảng Nam">
+<monhoc mamh="Mh01" tenmh="Java 1" tinchi="3">9</monhoc>
+<monhoc mamh="Mh02" tenmh="Lập trình trực quan" tinchi="3">8</monhoc>
+<monhoc mamh="Mh04" tenmh="Mạng máy tính" tinchi="3">7</monhoc>
+<monhoc mamh="Mh05" tenmh="Tư tưởng Hồ Chí Minh" tinchi="2">5</monhoc>
+</sinhvien>
+<sinhvien maso="Sv05" hoten="Nguyen Dinh Sy" lop="XML02"  diachi="Quảng Ngãi">
+<monhoc mamh="Mh01" tenmh="Java 1" tinchi="3">4</monhoc>
+<monhoc mamh="Mh02" tenmh="Lập trình trực quan" tinchi="3">5</monhoc>
+<monhoc mamh="Mh03" tenmh="Cơ sở dữ liệu" tinchi="3">6</monhoc>
+<monhoc mamh="Mh05" tenmh="Tư tưởng Hồ Chí Minh" tinchi="2">7</monhoc>
+</sinhvien>
+<sinhvien maso="Sv06" hoten="Vu Van Truc" lop="XML02" diachi="Thừa Thiên-Huế">
+<monhoc mamh="Mh01" tenmh="Java 1" tinchi="3">8</monhoc>
+<monhoc mamh="Mh02" tenmh="Lập trình trực quan" tinchi="3">7</monhoc>
+<monhoc mamh="Mh03" tenmh="Cơ sở dữ liệu" tinchi="3">6</monhoc>
+<monhoc mamh="Mh04" tenmh="Mạng máy tính" tinchi="3">5</monhoc>
+<monhoc mamh="Mh05" tenmh="Tư tưởng Hồ Chí Minh" tinchi="2">4</monhoc>
+</sinhvien>
+</dct>
+

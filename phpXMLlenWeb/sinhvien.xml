@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dssinhvien>
+  <sinhvien>
+    <masv>sv01</masv>
+    <tensv>Nguyen nhu y</tensv>
+    <ngaysinh>17/04/2000</ngaysinh>
+    <diachi>Ha noi</diachi>
+    <sdt>0328849286</sdt>
+    <lop>DH8C4</lop>
+    <monhoc>XML-JSON</monhoc>
+  </sinhvien>
+  <sinhvien>
+    <masv>sv02</masv>
+    <tensv>Nguyen van b</tensv>
+    <ngaysinh>27/12/2000</ngaysinh>
+    <diachi>Lao cai</diachi>
+    <sdt>099999999</sdt>
+    <lop>DH8C6</lop>
+    <monhoc>JAVA</monhoc>
+  </sinhvien>
+</dssinhvien>

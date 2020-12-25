@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dom Parser</title>
+	<style>
+	body{margin:40px 80px; font:normal 16pt Arial;}
+	</style>
+	<script>
+	function loadXML(){
+		txt="<?xml version='1.0'?>";
+		txt +="<dct>";
+		txt +="<sv masv='01' hoten='Vuong Dinh Hoang Long' />";
+		txt +="<sv masv='02' hoten='Nguyễn Thị Yen' />";
+		txt +="<sv masv='03' hoten='Vu Van Tien' />";
+		txt +="<sv masv='04' hoten='Nguyễn Nhu Y' />";
+		txt +="<sv masv='05' hoten='Nguyen Dinh Sy' />";
+		txt +="<sv masv='06' hoten='Vu Van Truc' />";
+		txt +="</dct>";
+
+		parser=new DOMParser();
+		xmlDoc=parser.parseFromString(txt,"text/xml");
+		var nodes=xmlDoc.getElementsByTagName("sv");
+
+		for(i=0; i<nodes.length; i++){
+				document.write(nodes[i].getAttribute("masv")+" - ");
+				document.write(nodes[i].getAttribute("hoten")+"<br>");		
+		}
+	}
+	</script>
+</head>
+<body>
+<h3>Thông báo tìm sinh viên ... từ XML String</h3>
+<script>loadXML();</script>
+<a href=index.html>Quay về</a>
+</body>
+</html>
