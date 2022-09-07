@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T03:30:31.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G3hLOFBI9uy5vZCJ-FV5" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T03:49:06.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IszstF2_xH6Q0OIHeFBp" version="20.2.8" type="github">
   <diagram id="QpPmT_mGVEs0pewQgkVs" name="Trang-1">
-    <mxGraphModel dx="1328" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="693" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,37 +83,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-36" value="isUser&lt;br&gt;&amp;nbsp; &amp;nbsp; - true: người nhắn cuối là user&lt;br&gt;&amp;nbsp; &amp;nbsp; - false: ngược lại người nhắn là admin&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="320" width="270" height="60" as="geometry" />
+          <mxGeometry x="840" y="310" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-37" target="Tl1vYp4vrJxFw7Y3Wa-i-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-37" value="sent_at&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: thời gian gửi tin nhắn lưu dạng&amp;nbsp;serverTimestamp có sắn firebase store&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="404" width="270" height="60" as="geometry" />
+          <mxGeometry x="840" y="394" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-39" target="Tl1vYp4vrJxFw7Y3Wa-i-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-39" value="text&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả:&amp;nbsp; nội dung tin nhắn&lt;br&gt;- Lưu ý: đối với tin nhắn dạng ảnh, file.&lt;br&gt;&amp;nbsp;+ ex: text: https://anh1,https://anh2,&lt;br&gt;nhiều ảnh thì text cách nhau dấu , 1 ảnh text là link của ảnh &amp;lt;-&amp;gt; tương tụ với file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="494" width="270" height="100" as="geometry" />
+          <mxGeometry x="840" y="484" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-41" target="Tl1vYp4vrJxFw7Y3Wa-i-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-41" value="fileName&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: tên file, field này có khi chọn gửi file&lt;br&gt;ex: output.docx, ...&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="613.75" width="270" height="72.5" as="geometry" />
+          <mxGeometry x="840" y="603.75" width="270" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-43" target="Tl1vYp4vrJxFw7Y3Wa-i-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-43" value="size&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: kích t cỡ của file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="703.5" width="270" height="85" as="geometry" />
+          <mxGeometry x="840" y="693.5" width="270" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-45" target="Tl1vYp4vrJxFw7Y3Wa-i-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-45" value="type&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: kiểu gửi lên là ảnh hay là file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file hoặc ảnh&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="799.5" width="270" height="85" as="geometry" />
+          <mxGeometry x="840" y="789.5" width="270" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-66" value="media" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;sketch=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="500" y="960" width="160" height="520" as="geometry" />
@@ -186,6 +186,9 @@
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-67" target="Tl1vYp4vrJxFw7Y3Wa-i-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-97" value="&lt;h1&gt;Document&lt;/h1&gt;&lt;p&gt;Bảng conversation sẽ tương ứng cho từng cuộc trò chuyện.&lt;/p&gt;&lt;p&gt;Bảng message sẽ lưu tin nhắn của cuộc trò chuyện dựa theo id của cuộc trò chuyện&lt;/p&gt;&lt;p&gt;Bảng media sẽ lưu ảnh, file của cuộc trò chuyện đó dựa theo id của cuộc trò chuyện&lt;/p&gt;&lt;h1&gt;Flow&lt;/h1&gt;&lt;div&gt;- Với khách vãng lãi khi nhắn tin sẽ tạo 1 cuộc trò chuyện với với. dữ liệu gửi lên fullName: là số điện thoại.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;+ Tất cả admin sẽ thấy tin nhắn vãng lai. Khi 1 trong các admin đó click vào cuộc hội thoại sẽ tự động cập lại lại cuộc trò chuyện do admin đó phụ trách.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;+ Đối với khách hàng chưa có cuộc trò chuyện nào thì sẽ tạo 1 cuộc trò chuyện với và lưu id của sale phụ trách. &lt;font color=&quot;#ff1c51&quot;&gt;(Mô tả trường users trong bảng conversations).&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 28, 81); white-space: pre;&quot;&gt;	&lt;/span&gt;+ Với mỗi lần nhắn tin sẽ cập nhật lại watched, lastMessage,lastSeen, isUser bảng conversations.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Với trường hợp gửi file or ảnh:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;+ Khi gửi ảnh call api upload nhận được link ảnh lưu ảnh vào trường text của message kèm theo type = &#39;image&#39;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;+ Khi gửi file call api upload nhận được link file lưu vào trường text của message cách nhau = dấu phẩy nếu nhiều link kèm theo type=&#39;file&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Tất cả trường hợp gửi ảnh, file sẽ lưu vào media theo id của cuộc trò chuyện.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lưu ý: Tất cả file đều upload dạng multi(chọn nhiều file) *Vẫn có thể chọn 1 file*.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="988" width="410" height="522" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
