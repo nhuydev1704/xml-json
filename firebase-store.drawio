@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T03:29:21.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="W0IRLaOTvzGw08Xe5m2r" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T03:30:31.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G3hLOFBI9uy5vZCJ-FV5" version="20.2.8" type="github">
   <diagram id="QpPmT_mGVEs0pewQgkVs" name="Trang-1">
-    <mxGraphModel dx="1139" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1328" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,7 +116,7 @@
           <mxGeometry x="840" y="799.5" width="270" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-66" value="media" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;sketch=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="500" y="960" width="160" height="530" as="geometry" />
+          <mxGeometry x="500" y="960" width="160" height="520" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-67" value="conversation_id" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -128,13 +128,13 @@
           <mxGeometry y="120" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-79" value="url: string[]" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
-          <mxGeometry y="220" width="160" height="110" as="geometry" />
+          <mxGeometry y="220" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-80" value="size: number[]" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
-          <mxGeometry y="330" width="160" height="100" as="geometry" />
+          <mxGeometry y="320" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-81" value="fileName: string[]" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
-          <mxGeometry y="430" width="160" height="100" as="geometry" />
+          <mxGeometry y="420" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-70" target="Tl1vYp4vrJxFw7Y3Wa-i-1">
           <mxGeometry relative="1" as="geometry" />
@@ -170,19 +170,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-87" value="url&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả:&amp;nbsp; danh sách đường dẫn file hoặc ảnh&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="1192.5" width="270" height="85" as="geometry" />
+          <mxGeometry x="740" y="1187.5" width="270" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-88" target="Tl1vYp4vrJxFw7Y3Wa-i-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-88" value="size&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: danh sách kích cỡ file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="1297.5" width="270" height="85" as="geometry" />
+          <mxGeometry x="740" y="1287.5" width="270" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-89" target="Tl1vYp4vrJxFw7Y3Wa-i-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-89" value="fileName&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: danh sách tên file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="1398" width="270" height="85" as="geometry" />
+          <mxGeometry x="740" y="1387.5" width="270" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-67" target="Tl1vYp4vrJxFw7Y3Wa-i-1">
           <mxGeometry relative="1" as="geometry" />
