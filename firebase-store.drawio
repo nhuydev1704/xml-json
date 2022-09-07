@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T02:45:27.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="A3mZroSQgXvN73KifBod" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T03:28:17.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="igqktpGknhfxUl4Wps-g" version="20.2.8" type="github">
   <diagram id="QpPmT_mGVEs0pewQgkVs" name="Trang-1">
-    <mxGraphModel dx="797" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-1" value="conversations" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="270" width="140" height="250" as="geometry" />
+          <mxGeometry x="320" y="270" width="140" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-2" value="isUser: boolean" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-1">
           <mxGeometry y="30" width="140" height="70" as="geometry" />
@@ -17,19 +17,163 @@
           <mxGeometry y="170" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-13" value="isUser&lt;br&gt;&amp;nbsp; &amp;nbsp; - true: người nhắn cuối cùng là user&lt;br&gt;&amp;nbsp; &amp;nbsp; - false: ngược lại&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="300" width="210" height="60" as="geometry" />
+          <mxGeometry x="10" y="305" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-14" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&amp;nbsp;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22isUser%3A%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20boolean%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20true%3A%20ng%C6%B0%E1%BB%9Di%20nh%E1%BA%AFn%20cu%E1%BB%91i%20c%C3%B9ng%20l%C3%A0%20user%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20false%3A%20ng%C6%B0%E1%BB%A3c%20l%E1%BA%A1i%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3D%23d6b656%3BfillColor%3D%23fff2cc%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22270%22%20width%3D%22200%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;&quot;&gt;lastMessage&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: tin nhắn cuối cùng của cuộc hội thoại&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="380" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-15" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&amp;nbsp;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22isUser%3A%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20boolean%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20true%3A%20ng%C6%B0%E1%BB%9Di%20nh%E1%BA%AFn%20cu%E1%BB%91i%20c%C3%B9ng%20l%C3%A0%20user%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20false%3A%20ng%C6%B0%E1%BB%A3c%20l%E1%BA%A1i%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3D%23d6b656%3BfillColor%3D%23fff2cc%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22270%22%20width%3D%22200%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%&lt;/span&gt;&lt;span style=&quot;&quot;&gt;lastSeen&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: thời gian tin nhắn cuối cùng parse Date dạng (YYYY-MM-DD HH :&amp;nbsp; mm : ss)&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="450" width="200" height="70" as="geometry" />
+          <mxGeometry x="10" y="445" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-17" value="users: array" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="520" width="140" height="80" as="geometry" />
+          <mxGeometry x="320" y="630" width="140" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-18" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&amp;nbsp;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22isUser%3A%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20boolean%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20true%3A%20ng%C6%B0%E1%BB%9Di%20nh%E1%BA%AFn%20cu%E1%BB%91i%20c%C3%B9ng%20l%C3%A0%20user%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20false%3A%20ng%C6%B0%E1%BB%A3c%20l%E1%BA%A1i%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3D%23d6b656%3BfillColor%3D%23fff2cc%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22270%22%20width%3D%22200%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;&quot;&gt;users&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: chứa thông tin 2 user trong cuộc trò truyện&lt;br&gt;- Đối với khách hàng:&amp;nbsp;&lt;br&gt;ex: [63, {}]. trong đó 63 là id của auth admin, {}&amp;nbsp; full thông tin của khách hàng.&amp;nbsp;&lt;br&gt;- Đối với khách vãng lại:&lt;br&gt;ex [0,{fullName: &#39;0328849286&#39;}]. trong đó 0 là default vì khi khách vãng lai chat chưa chỉ định admin tư vấn khi admin tư vấn chọn cuộc trò chuyện sẽ tự động cập nhật lại.&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="540" width="200" height="200" as="geometry" />
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-18" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&amp;nbsp;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22isUser%3A%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20boolean%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20true%3A%20ng%C6%B0%E1%BB%9Di%20nh%E1%BA%AFn%20cu%E1%BB%91i%20c%C3%B9ng%20l%C3%A0%20user%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20false%3A%20ng%C6%B0%E1%BB%A3c%20l%E1%BA%A1i%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3D%23d6b656%3BfillColor%3D%23fff2cc%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22270%22%20width%3D%22200%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;&quot;&gt;users&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: chứa thông tin 2 user trong cuộc trò truyện&lt;br&gt;- Đối với khách hàng:&amp;nbsp;&lt;br&gt;ex: [63, {}]. trong đó 63 là id của auth admin, {}&amp;nbsp; full thông tin của khách hàng.&amp;nbsp;&lt;br&gt;- Đối với khách vãng lại:&lt;br&gt;ex [0,{fullName: &#39;0328849286&#39;}]. trong đó 0 là default vì khi khách vãng lai chat chưa chỉ định admin tư vấn khi admin tư vấn chọn cuộc trò chuyện sẽ tự động cập nhật lại.&lt;br&gt;+ Đối với khách vãng lại chỉ fullName: sẽ là số điện thoại&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-19" target="Tl1vYp4vrJxFw7Y3Wa-i-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-19" value="watched: boolean" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-20" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&amp;nbsp;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22isUser%3A%20ki%E1%BB%83u%20d%E1%BB%AF%20li%E1%BB%87u%20boolean%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20true%3A%20ng%C6%B0%E1%BB%9Di%20nh%E1%BA%AFn%20cu%E1%BB%91i%20c%C3%B9ng%20l%C3%A0%20user%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%20%26amp%3Bnbsp%3B%20false%3A%20ng%C6%B0%E1%BB%A3c%20l%E1%BA%A1i%26lt%3Bbr%26gt%3B%26amp%3Bnbsp%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3D%23d6b656%3BfillColor%3D%23fff2cc%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2210%22%20y%3D%22270%22%20width%3D%22200%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;watched&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: tin nhắn cuối cùng đã được xem chưa. Default khi khách vãng lai nhắn sẽ mặc định là chưa đọc&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="532.5" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-2" target="Tl1vYp4vrJxFw7Y3Wa-i-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-3" target="Tl1vYp4vrJxFw7Y3Wa-i-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-4" target="Tl1vYp4vrJxFw7Y3Wa-i-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-30" target="Tl1vYp4vrJxFw7Y3Wa-i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-29" value="messages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;sketch=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="264.5" width="160" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-30" value="conversation_id: string" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-31" value="isUser: boolean&#xa;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="56" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-32" value="sent_at: timestamp" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="120" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-38" value="text: string" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="224" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-40" value="fileName: string" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="340" width="160" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-42" value="size: number" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="436" width="160" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-44" value="type: &#39;file&#39; | &#39;image&#39;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry y="532" width="160" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-36" target="Tl1vYp4vrJxFw7Y3Wa-i-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-36" value="isUser&lt;br&gt;&amp;nbsp; &amp;nbsp; - true: người nhắn cuối là user&lt;br&gt;&amp;nbsp; &amp;nbsp; - false: ngược lại người nhắn là admin&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="328" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-37" target="Tl1vYp4vrJxFw7Y3Wa-i-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-37" value="sent_at&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: thời gian gửi tin nhắn lưu dạng&amp;nbsp;serverTimestamp có sắn firebase store&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="412" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-39" target="Tl1vYp4vrJxFw7Y3Wa-i-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-39" value="text&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả:&amp;nbsp; nội dung tin nhắn&lt;br&gt;- Lưu ý: đối với tin nhắn dạng ảnh, file.&lt;br&gt;&amp;nbsp;+ ex: text: https://anh1,https://anh2,&lt;br&gt;nhiều ảnh thì text cách nhau dấu , 1 ảnh text là link của ảnh &amp;lt;-&amp;gt; tương tụ với file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="502" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-41" target="Tl1vYp4vrJxFw7Y3Wa-i-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-41" value="fileName&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: tên file, field này có khi chọn gửi file&lt;br&gt;ex: output.docx, ...&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="621.75" width="270" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-43" target="Tl1vYp4vrJxFw7Y3Wa-i-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-43" value="size&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: kích t cỡ của file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="711.5" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-45" target="Tl1vYp4vrJxFw7Y3Wa-i-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-45" value="type&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: kiểu gửi lên là ảnh hay là file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file hoặc ảnh&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="807.5" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-66" value="media" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;sketch=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="960" width="160" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-67" value="conversation_id" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-68" value="sent_at: timestamp" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry y="56" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-69" value="type: &#39;file&#39; | &#39;image&#39;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry y="120" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-79" value="url: string[]" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry y="220" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-80" value="size: number[]" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry y="330" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-81" value="fileName: string[]" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;sketch=0;verticalAlign=middle;" vertex="1" parent="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry y="430" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-70" target="Tl1vYp4vrJxFw7Y3Wa-i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-70" value="Lưu thông tin cuộc hội thoại&lt;br&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-71" target="Tl1vYp4vrJxFw7Y3Wa-i-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-71" value="Lưu tin nhắn" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-77" target="Tl1vYp4vrJxFw7Y3Wa-i-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-77" value="Lưu tập tin" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1003" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-82" target="Tl1vYp4vrJxFw7Y3Wa-i-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-82" value="sent_at&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: thời gian gửi tin nhắn lưu dạng&amp;nbsp;serverTimestamp có sắn firebase store&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1016" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-84" target="Tl1vYp4vrJxFw7Y3Wa-i-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-84" value="type&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: kiểu gửi lên là ảnh hay là file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file hoặc ảnh&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1085.5" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-87" value="url&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả:&amp;nbsp; danh sách đường dẫn file hoặc ảnh&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1188" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-88" value="size&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: danh sách kích cỡ file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1288" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-89" value="fileName&lt;br&gt;&amp;nbsp; &amp;nbsp; - mô tả: danh sách tên file&lt;br&gt;- Lưu ý: trường này chỉ gửi lên khi gửi file&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1398" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl1vYp4vrJxFw7Y3Wa-i-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tl1vYp4vrJxFw7Y3Wa-i-67" target="Tl1vYp4vrJxFw7Y3Wa-i-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
